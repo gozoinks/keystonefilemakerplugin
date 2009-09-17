@@ -1,0 +1,58 @@
+#summary Function Wish List
+#labels Featured
+
+= Introduction =
+
+Here is a list of other functions it'd be cool to add to Keystone
+
+
+= Details =
+
+1. A pop-up clock (for picking a time in a time field)
+
+That could be cool. X-plat might be a problem, but Mac shouldn't be too hard.
+
+2. A simple pop-up calculator
+
+Now that would be handy. Many times I've wanted to be able to enter a number based on addition or multiplication of some values.
+
+3. A pop-up color picker that then sets a container field to that color
+
+I've been talking to Matt Petrowsky about a plugin he wants to create color gradients. I'd probably include a similar function in that plugin first.
+
+4. A simple send SMTP email that maybe can attach something from a container field
+
+That is fairly complex, probably too much for something you intend to give away.
+
+5. A execute shell script on mac.
+
+I had this in zippShell, so I'm not sure if I can include this in anything else I write. I'll look into it.
+
+6. A FusionReactor thing to talk back/forth to a web viewer
+
+This one will require a good bit of research. I have an idea of how to get it to work, but it will require some experimentation to see if I am on the right track.
+
+7. Recording a sound in FMP in a container is almost useless because you can't export the sound. So it would be cool to be able to record a WAV or MP3 or MOV in a container so you could attach voice notes to records and/or email them to people.
+
+That shouldn't be too hard to actually store the contents in the file, but it may make it unplayable from within FM. I'd probably have to add my own player functions in the plugin.
+
+8. Is there a way to communicate with a USB port like the Troi Serial does with a serial port?
+
+Yes, it should be possible, but USB is somewhat more complicated than a serial port. What did you have in mind?
+
+9. Something that does the same thing as this:
+
+http://www.briandunning.com/cf/894
+
+Sure, this could tie in with a SQL call to get the data. The problem with the SQL stuff is that it cannot be tied to the current found set; you must completely specify the query for the set of records you want to operate on.
+
+10. Pi, but with the ability to specify the number of places past the decimal you want
+
+Hmm, can't you get the same result in a CF by setting the precision?
+
+11. A credit card number validator
+12. ISBN10 and ISBN13 validator
+
+These two are easy enough to do with a CF, unless you also want to verify with some external source.
+
+13. Anything else YOU can think of? :)
